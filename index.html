@@ -1,0 +1,318 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1.0">
+    <title>ГАЗБУКА - Проверка и оплата штрафов ГИБДД</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300..800&display=swap"
+          rel="stylesheet">
+</head>
+<body>
+<div class="container">
+    <header>
+        <div class="header__wrap">
+            <img src="./img/location.svg" alt="location"
+                 class="location-icon">
+            <p class="city-text" style="cursor: pointer;">Выбрать
+                город</p>
+
+            <div class="head">
+                <p class="search-text" style="cursor: pointer;">
+                    Поиск</p>
+                <p class="contacts-text" style="cursor: pointer;">
+                    Контакты</p>
+
+                <div class="head__login">
+                    <img src="./img/user_login.svg" alt="login"
+                         class="login-icon">
+                    <p class="login-text" style="cursor: pointer;">
+                        Войти</p>
+                </div>
+            </div>
+        </div>
+    </header>
+    <main>
+        <div class="main__container">
+            <div class="main__wrap">
+                <img src="./img/logo.svg" alt="logo" class="logo-icon">
+                <p class="site__name" style="cursor: pointer;">
+                    ГАЗБУКА</p>
+
+                <div class="main__text">
+                    <p class="text">ОСАГО</p>
+                    <p class="text">КБМ</p>
+                    <p class="text">Штрафы ГИБДД</p>
+                    <p class="text">ЖУРНАЛ</p>
+                </div>
+            </div>
+            <div class="main__info">
+                <div class="main__info-wrap">
+                    <div class="main__info-words">
+                        <h1 class="main__info-title">
+                            Проверить и оплатить штрафы ГИБДД
+                        </h1>
+                        <p class="main__info-text">
+                            Поможем найти ближайшую ветеринарную клинику
+                            с хорошими отзывами и заботливыми
+                            ветврачами.
+                        </p>
+
+                        <div class="main__info-word">
+                            <div class="avto-border">
+                                <p class="main-avto">По авто</p>
+                            </div>
+                            <div class="pos-border">
+                                <p class="main-pos">По поставлению</p>
+                            </div>
+                            <div class="vod-border">
+                                <p class="main-vod">По водителю</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="main__info-img">
+                        <img src="./img/car.svg" alt="car">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+    <div class="support margin">
+        <div class="support__wrap support-container">
+            <div class="gos-number">
+                <label for="gos-number">Госномер</label>
+                <div class="pole">
+                    <input type="text" id="gos-number"
+                           placeholder="A 000 AA 00">
+                    <img src="./img/russia.svg" alt="russia"
+                         style="position: absolute; left: 255px; top: 73px;">
+                </div>
+            </div>
+            <div class="sts-number">
+                <label for="sts-number">Номер СТС</label>
+                <div class="pole">
+                    <input type="text" id="sts-number"
+                           placeholder="00 00 000000">
+                    <img src="./img/num.svg" alt="num"
+                         style="position: absolute; left: 480px; top: 70px;">
+                </div>
+            </div>
+            <div class="email">
+                <label for="email">Электронная почта</label>
+                <div class="pole">
+                    <input type="email" id="email"
+                           placeholder="email@mail.ru">
+                </div>
+            </div>
+            <button class="conf-btn">Проверить штрафы</button>
+        </div>
+    </div>
+    <section class="official">
+        <img src="./img/official.svg" alt="official">
+    </section>
+    <section class="info__card">
+        <div class="cards">
+        </div>
+        <div class="info__end">
+            <div class="info__end-wrap">
+                <div class="end-info">
+                    <img src="./img/Location1.svg" alt="Location"
+                         class="one">
+                    <div class="end-texts">
+                        <p class="end-title">15 000 000</p>
+                        <p class="end-text">сумма штрафов</p>
+                    </div>
+                </div>
+                <div class="end-info">
+                    <img src="./img/Chat.svg" alt="Chat" class="two">
+                    <div class="end-texts">
+                        <p class="end-title">234 422</p>
+                        <p class="end-text">штрафов</p>
+                    </div>
+                </div>
+                <div class="end-info">
+                    <img src="./img/Edit%20Square.svg" alt="Edit Square"
+                         class="two">
+                    <div class="end-texts">
+                        <p class="end-title">540</p>
+                        <p class="end-text">средний штраф</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="fines">
+        <h1 class="fines__title">Найденные штрафы</h1>
+        <div class="fines__table">
+            <img src="./img/fines.svg" alt="Fines">
+            <img src="./img/Arrow.svg" alt="Arrow">
+        </div>
+        <div class="support margin2">
+            <div class="support__wrap support-container">
+                <div class="gos-number2">
+                    <label for="gos-number2">Госномер</label>
+                    <input type="text" id="gos-number2"
+                           placeholder="A 000 AA 00">
+                </div>
+                <div class="sts-number2">
+                    <label for="sts-number2">Номер СТС</label>
+                    <input type="text" id="sts-number2"
+                           placeholder="00 00 000000">
+                </div>
+                <div class="email2">
+                    <label for="email2">Электронная почта</label>
+                    <input type="email" id="email2"
+                           placeholder="email@mail.ru">
+                </div>
+                <button class="conf-btn2">Проверить штрафы</button>
+                <div class="support-image">
+                    <img src="./img/image%2012.svg" alt="">
+                    <img src="./img/image%2013.svg" alt="">
+                    <img src="./img/image%2014.svg" alt="">
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="osago">
+        <img src="./img/osago.svg" alt="">
+    </section>
+    <section class="sum__osago">
+        <img src="./img/sum_osago.svg" alt="sumOsago"
+             style="margin-left: -155px">
+    </section>
+    <section class="fail__fines">
+        <img src="./img/fail_fines.svg" alt="fail"
+             style="margin-left: -30px; margin-top: -5px;">
+    </section>
+    <section class="faq">
+        <h1>Часто задаваемые вопросы при расчете стоимости ОСАГО на
+            калькуляторе онлайн</h1>
+        <div class="question">
+            <h4>Почему стоимость страховок отличается? Цены ведь во всех
+                страховых одинаковые</h4>
+            <hr>
+            <h4>Зависит ли цена полиса от размера страховой
+                компании?</h4>
+            <hr>
+            <h4>Как понять, что полисы ОСАГО на сайте настоящие?</h4>
+            <hr>
+            <h4>Как получить купленный полис ОСАГО?</h4>
+            <hr>
+            <h4>Как понять, что вы не накручиваете цены?</h4>
+            <hr>
+            <h4>Что вы делаете, чтобы защитить данные клиентов?</h4>
+            <hr>
+            <h4>Учитываете ли вы историю вождения при расчёте
+                ОСАГО?</h4>
+        </div>
+    </section>
+    <footer>
+        <h2>Часто ищут</h2>
+        <div class="footer__cards">
+            <div class="footer__card">
+                <h4 class="footer__card-title">Рекомендуемое</h4>
+                <p class="footer__card-text">Электронный полис ОСАГО</p>
+                <p class="footer__card-text">Оформить через РСА</p>
+                <p class="footer__card-text">Самое дешевое ОСАГО</p>
+                <p class="footer__card-text">Продлить полис ОСАГО</p>
+            </div>
+            <div class="footer__card">
+                <h4 class="footer__card-title">Пользуется спросом</h4>
+                <p class="footer__card-text">Без ограничений</p>
+                <p class="footer__card-text">Калькулятор РСА</p>
+                <p class="footer__card-text">Для новичка</p>
+                <p class="footer__card-text">На мотоцикл</p>
+            </div>
+            <div class="footer__card">
+                <h4 class="footer__card-title">Выбор по типу</h4>
+                <p class="footer__card-text">Круглосуточно</p>
+                <p class="footer__card-text">С доставкой</p>
+                <p class="footer__card-text">Без прав</p>
+                <p class="footer__card-text">Онлайн калькулятор
+                    ОСАГО</p>
+            </div>
+            <div class="footer__card">
+                <h4 class="footer__card-title">Популярное</h4>
+                <p class="footer__card-text">Без стажа</p>
+                <p class="footer__card-text">Без дополнительный
+                    услуг</p>
+                <p class="footer__card-text">Для регионов</p>
+            </div>
+            <div class="footer__card">
+                <h4 class="footer__card-title">Самые популятрные</h4>
+                <p class="footer__card-text">Альфастрахование</p>
+                <p class="footer__card-text">Росгосстрах</p>
+                <p class="footer__card-text">Ингосстрах</p>
+                <p class="footer__card-text">Тинькофф страхование</p>
+                <p class="footer__card-text">Ресо-Гарантия</p>
+            </div>
+            <div class="footer__card">
+                <h4 class="footer__card-title">Часто выбирают</h4>
+                <p class="footer__card-text">ВСК</p>
+                <p class="footer__card-text">Согаз</p>
+                <p class="footer__card-text">Тинькофф страхование</p>
+                <p class="footer__card-text">Ренессанс страхование</p>
+                <p class="footer__card-text">Согласие</p>
+            </div>
+            <div class="footer__card">
+                <h4 class="footer__card-title">Пользуется спросом</h4>
+                <p class="footer__card-text">МАКС</p>
+                <p class="footer__card-text">ГАЙДЕ</p>
+                <p class="footer__card-text">Росэнерго</p>
+                <p class="footer__card-text">Надежда</p>
+                <p class="footer__card-text">Энергогарант</p>
+            </div>
+            <div class="footer__card">
+                <h4 class="footer__card-title">Выбор заемщиков</h4>
+                <p class="footer__card-text">Астро-Волга</p>
+                <p class="footer__card-text">Сургутнефгаз</p>
+                <p class="footer__card-text">Абсолют Страхование</p>
+                <p class="footer__card-text">Сбербанк Страхование</p>
+                <p class="footer__card-text">ОСК</p>
+            </div>
+            <div class="footer__card">
+                <h4 class="footer__card-title">В крупных городах</h4>
+                <p class="footer__card-text">В Москве</p>
+                <p class="footer__card-text">В Екатеринбурге</p>
+                <p class="footer__card-text">В Нижнем Новгороде</p>
+                <p class="footer__card-text">В Воронеже</p>
+                <p class="footer__card-text">В Новосибирске</p>
+                <p class="footer__card-text">В Уфе</p>
+            </div>
+            <div class="footer__card">
+                <h4 class="footer__card-title">В популярных городах</h4>
+                <p class="footer__card-text">В Челябинске</p>
+                <p class="footer__card-text">В Краснодаре</p>
+                <p class="footer__card-text">В Красноярске</p>
+                <p class="footer__card-text">В Самаре</p>
+                <p class="footer__card-text">В Волгограде</p>
+                <p class="footer__card-text">В Санкт-Петербурге</p>
+            </div>
+            <div class="footer__card">
+                <h4 class="footer__card-title">В больших городах</h4>
+                <p class="footer__card-text">В Ярославле</p>
+                <p class="footer__card-text">В Ростове-На-Дону</p>
+                <p class="footer__card-text">В Казани</p>
+                <p class="footer__card-text">В Перми</p>
+                <p class="footer__card-text">В Пензе</p>
+                <p class="footer__card-text">В Омске</p>
+            </div>
+            <div class="footer__card">
+                <h4 class="footer__card-title">В огромных городах</h4>
+                <p class="footer__card-text">В Тольятти</p>
+                <p class="footer__card-text">В Саратове</p>
+                <p class="footer__card-text">В Оренбурге</p>
+                <p class="footer__card-text">В Липецке</p>
+                <p class="footer__card-text">В Курске</p>
+                <p class="footer__card-text">В Иркутске</p>
+            </div>
+        </div>
+    </footer>
+</div>
+
+<script src="./main.js"></script>
+</body>
+</html>
